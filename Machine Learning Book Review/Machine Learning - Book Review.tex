@@ -1,0 +1,62 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+
+% This is a simple template for a XeLaTeX document using the "article" class,
+% with the fontspec package to easily select fonts.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage{fontspec} % Font selection for XeLaTeX; see fontspec.pdf for documentation
+\defaultfontfeatures{Mapping=tex-text} % to support TeX conventions like ``---''
+\usepackage{xunicode} % Unicode support for LaTeX character names (accents, European chars, etc)
+\usepackage{xltxtra} % Extra customizations for XeLaTeX
+\usepackage{titling}
+\usepackage[parfill]{parskip}
+\setlength{\droptitle}{-10em}
+\usepackage{emptypage}
+
+
+\usepackage[font=scriptsize,labelfont=bf]{caption}
+%\setsansfont{Deja Vu Sans}
+%\setmonofont{Deja Vu Mono}
+
+% other LaTeX packages.....
+\usepackage{geometry} % See geometry.pdf to learn the layout options. There are lots.
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+%\usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+\title{A review of Machine Learning by Ethem Alpaydin }
+\author{Mo Afshar - Intended for Wired Magazine}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+During the last two decades, a revolution has been taking place within technology, more precisely, within Computer Science. Most of our tools, devices and services have been transformed into digital versions. In this article, we will be reviewing the book “Machine Learning” by Ethem Alpaydin whom gives the reader an overall idea about what Machine Learning is. Therefore, the aim of this article is to firstly describe Machine Learning, deep learning and a set of examples of applications and why they are important to us. 
+\par
+
+In the beginning chapters of the book basic principles of Machine Learning and some simple applications have been discussed. To put simply, Machine Learning is covered of algorithms that “teach” computers to perform tasks that human beings naturally do. However, Machine Learning is more than performing ordinary tasks that humans perform, they can provide very practical applications that can change business results – such as time and money savings as well as guiding strategical approaches. This due to the world we live which is dominated by the constant increasing of data. 
+\par
+
+In the last twenty years, people have started to think about exactly what we can do with such amount of data. For example, a supermarket chain would love to know what their customers are going to buy next time they visit the store. By having this information, stores can stock more efficiently which will increase profits as well as increasing customer satisfaction. Even though custumer behaviour changes in time and there can be many factors contributing to this, we know that the behaviour is not random. This is where Machine Learning is a powerful tool that can provide a good and useful approximation by building models that can recognise patterns which can lead us to predict and understand the complex processes. 
+\par
+
+To recognise patterns and solve problems we need algorithms, an algorithm is a set of instructions which are processed to transform the input to output. We use this to build predictive models to make predictions on our data. A good example that Alpaydin introduces is the problem of estimating the price of a used car. This is a good example of a machine learning algorithm since there is no magic formulae, however at the same time we can identify set rules such as the price is dependent on the properties of the car, the mileage usage, the brand of the car and so on. Identifying these factors alone do not allow us to determine the price. However, the combination of these factors to determine the price is what we do not know and want to learn.
+\par
+
+In the direction of completing our goal, we collect data about the car market, record the datasets about their attributes and how much they are sold for. By doing so we then try to learn the specific relationships between each of the attributes and the price of the car. However, no matter how many properties we collect, other factors that are out of our control could still impact the output of the predictions. Therefore, because of the effect of this uncertainty we won’t be able to estimate an exact price, but we can estimate an interval in which the unknown price is likely to appear.
+\par
+
+Leading on, during the later chapters of the book the important concept of deep learning is introduced. Alpaydin defines deep learning as “In deep learning, the idea is to learn feature levels of increasing abstraction with minimum human contribution”. Deep learning is concerned with algorithms inspired by the structure of the brain called artificial neural networks. By using brain simulations, deep learning hopes to make learning algorithms better and easier to use and remove dependencies within the structure of the input.
+\par
+
+An example of a deep learning problem has been analysed in the automatic colorization of black and white images. Traditionally this was done by hand with human effort as it proved to be a very difficult task. However, deep learning can be used to identify the objects with their context to colour the image, just like how a human may approach the problem.
+\par
+
+So, where do we go from here? We have understood that Machine Learning is a viable technology within many domains of applications. Our data is growing and getting bigger day by day and computing power is also getting bigger. More data and computation results in our trained models getting more and more intelligent which will translate in creation of deeper networks. In the last half century, we have discovered new applications in our lives and how they have also changed our lives, and a world where machines think like humans. Alpaydin states “Machine Learning will help us make sense of an increasingly complex world” which is what we hope we can achieve and beyond in the future.
+
+
+
+\end{document}

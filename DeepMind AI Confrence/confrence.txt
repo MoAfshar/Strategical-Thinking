@@ -1,0 +1,133 @@
+Turing Lecture - The Role of Multi-Agent Learning in Artificial
+Intelligence Research at DeepMind
+
+-> Thore Graepel: 
+	-DeepMind and UCL 
+
+-> DeepMind: 
+	- Solve Intelligence and to make the world a better
+	  place 
+
+-> Inteligence: 
+	- Intelligence measure an agent's ability to 
+          acheive goals in a wide range of environemnts
+          Intelligence is solving broad set of tasks
+          Multi-agent environments, they are responding
+          and not static
+
+-> Why AI about multi agent systems:
+	- They provide flexible system, scalability and flex
+	  break down the problem into smaller sections 
+	- Intelligence didn't arise in siolation, there are
+          groups of agents which by their interaction brings
+	  intelligence 
+	- We live in a multi-agent world. An AI agent needs
+	  to take into account the agency of others in order
+	  to succeed and to act to the benefit of human agents
+
+-> Multi-agent designs:
+	- A constituion can be considered a multi-agent design
+	- They are more robust, scalable and reusable 
+	- Challenges global goals from local actions, credit
+	  assignment, reward or the right goal for the system
+	  to satisfy, learning problems, the environment seen
+	  by one agent the environment is drifting 
+
+-> We live in a multi agent world: 
+	- traffic, economy, markets, workplace, sports, family
+	- compete, cooperate, coordinate, communicate, negotiate
+	  predict actions 
+
+-> Human Inteligence didnt arise in isolation 
+	- Competetion with other species, tribes, individuals
+	- more challenging tasks the mind needed to adapt 
+	- cooperation, groups of things effectively working 
+ 	  together, learning from others, cumulitive culture
+	- the older an idea is the earlier we teach to kids, 
+	  cumulitve culture 
+
+-> Learning to cooperate, sequential social dilemmas:
+	- what is social dilemmas, Situations where any 
+	  individuals may profit from selfishness uneless too
+	  many indivuals choose the selfish, whole group loses 
+	- Public goods sharing, Free-riders, pollution etc
+	- can cooperation emerge and be stable? 
+	- Matrix Game Social Dilemmas
+	- Social Undeseriable Nash Equilibria (Game Theory)
+	- Limitations of MGSD Model, Real world social delemmas 
+	  are temportally extended 
+	- Cooperativeness may be a graded quantity 
+	- Sequential Social Delemmas, capture these aspects of 
+	  real-world socials dilemmas, DQN algorithom train 
+	  agents work and how these agents interact in these
+	  environments
+	- Two games Gatering and Wolfpack
+	- Results from Empirical Game Theoretic Analysis 
+	- SSDS like gathering and Wolfpack have rich dynamics
+	  that cannot be captured in MGSD models 
+	- Learning which strategic decision to make occurs 
+	  simulataneously with learning to efficiently 
+	- Coordinate their action and effective cooperation policy
+	- Complexity of learning how to implement effective
+          cooperation
+
+-> Learning to compete, AlphaGo: 
+	- Game of Go, Game tree complexity 
+	- Search space is huge and impossible for computers to
+	  evaluate who is winning
+	- Neural networks to reduce the complexity of the search
+	- Value Network - Evaulation of how good the point is
+	  winning probability 
+	- Policy Network - Mapping that takes in position as input
+          as output gives probability of all possible moves on
+	  the board, the intution of the go player
+	- Reduce depth with value network and policy network for
+	  given choice reducing breadth
+	- Neural network training, Human expert positions, game records
+	- Supervised learning policy network, learning the mapping
+	- Reinforcment learning with policy network, multi agent
+	  the system can play against itself, self play data 
+	- Then now you have games, train the value network 
+	  classification problem, given probability in a given
+	  situation 
+	- supervised learning of policy networks, 12 layer
+	  30 million position from human experts 
+	- training algorithom maximise likelihood by stochastic
+	  gradient descent 
+	- training time 4 weeks on 50 GPUS using google cloud
+	- 57% accuracy 
+	- Reinforcement learning of policy network, network
+	  against itself, 80% vs supervised learning 
+	  only 1 week on 50 GPU's using google cloud 
+	- First strong positon of evaluation function reinforcement using value network 
+	- Monte-Carlo tree search, collecting information how 
+	  well a move did, prior probability how it did and 
+	  compare to the action value 
+	- Monte-Carlo value network and policy network and then backup
+	- Evaluate current AlphaGo against computers
+	- Quote to change the world at the end of vid
+	- Lessons, solving one problem? generic planning architeture
+          that neural networks have systematic search, 
+	  training and planning is that creativity emerging
+	  took human data, learn then self data learning, 
+ 	  you can view the AI as a tool 
+	- Go everything is observable but the world isn't 
+	- in the real world we dont know all the rules, more than
+	  two agents, creating more complex situations 
+	  real world is not a genral sum games, the dynamic 
+	  is noisy and high dimensial input and action spaces
+	- Game Theory -> Machine Learning -> Cognitive Science
+	- Multi-Agent path towards AI, game theoric aspects 
+	  as well as machine learning, cognitive science, 
+	  and social sceince busy studying multi agent reactions
+	  make better AI system such as person digital system 
+	  treat you as an agent etc, trafic, economy challenges
+	  by understanding multiple agents, AI safety and AI ethics
+
+
+
+
+
+
+
+
